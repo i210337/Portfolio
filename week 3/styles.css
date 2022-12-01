@@ -1,18 +1,46 @@
 *{
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
 
-.container{
-	background-color: darkred;
-	border: 5px solid purple;
+body{
+	background-color: wheat;
+	font-family: 'Bebas Neue', cursive;
 }
-.row{
-	background-color: darkblue;
-	border: 5px solid black;
+
+#header-nav{
+	background-color: salmon;
+	border-radius: 0;
+	border: 0;
 }
-.col-lg-4{
-	background-color: lightseagreen;
-	border: 5px solid whitesmoke;
+
+#logo-img{
+/*	background: url() no-repeat;*/
+	background-color: lightpink;
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 5px 0px;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand p {
+	text-transform: uppercase;
+/*	margin-top: 15px;*/
+	font-size: 1em;
 }
